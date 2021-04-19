@@ -1,0 +1,11 @@
+{
+  "name": "so-npm-download-on-install",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "download --out third-party https://raw.githubusercontent.com/jbr/jQuery.highlightRegex/master/highlightRegex.js"
+  },
+  "dependencies": {
+    "download-cli": "^1.1.1"
+  }
+}
